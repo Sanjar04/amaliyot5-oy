@@ -1,0 +1,48 @@
+    {
+    "workbench.colorTheme": "Default High Contrast",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotVerifyTags": true,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 3,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "vscode-edge-devtools.webhint": false,
+    "git.confirmSync": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "liveSassCompile.settings.autoprefix": [
+
+    ],
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "window.zoomLevel": 1,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "normal",
+    "files.associations": {
+        "*.json": "bibtex"
+    },
+
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css.css"
+          },
+      
+          {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css.css"
+          }
+        ],
+        "liveServer.settings.port": 5502,
+    }

@@ -1,0 +1,149 @@
+
+.bassic{
+   padding-top: 168px;
+   padding-left: 150px;
+   padding-bottom: 158px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.bassic-cards{
+   padding-top: 90px;
+   padding-right: 30px;
+}
+
+.bassic-img{
+   width: 445px;
+   height: 520px;
+   background-image: url(../../Assets/img/Bitmap.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.bassic-title{
+   font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+}
+
+.bassic-copy{
+   width: 540px;
+   font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+margin-top: 32px;
+}
+
+@media only screen and (max-width: 1399px){
+   .bassic{
+      padding-top: 168px;
+      padding-left: 0px;
+      padding-bottom: 158px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .bassic-img{
+      width: 281px;
+      height: 470px;
+      background-image: url(../../Assets/img/bassic-pilanshet.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+   }
+   
+   .bassic-cards{
+      padding-top: 90px;
+      padding-right: 0px;
+   }
+}
+
+@media only screen and (max-width: 989px){
+   .bassic{
+      padding-top: 168px;
+      padding-left: 0px;
+      padding-bottom: 158px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .bassic-img{
+      width: 281px;
+      height: 470px;
+      background-image: url(../../Assets/img/bassic-pilanshet.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+   }
+   
+   .bassic-cards{
+      padding-top: 30px;
+      padding-right: 0px;
+   }
+
+   .bassic-copy{
+      width: 350px;
+      font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   margin-top: 12px;
+   }
+}
+
+@media only screen and (max-width: 768px){
+   .bassic{
+      padding-top: 168px;
+      padding-left: 0px;
+      padding-bottom: 198px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+
+   .bassic-img{
+      width: 327px;
+      height: 400px;
+      background-image: url(../../Assets/img/bassic-pilanshet.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .bassic-title{
+      font-family: 'Fraunces 9pt';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #333D4B;
+   margin-top: 48px;
+   text-align: center;
+   }
+   
+   .bassic-cards{
+      padding-top: 30px;
+      padding-right: 0px;
+   }
+
+   .bassic-copy{
+      width: 350px;
+      font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   margin-top: 30px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   }
+}

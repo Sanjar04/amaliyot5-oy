@@ -1,0 +1,93 @@
+.hero {
+   padding-top: 137px;
+   padding-bottom: 137px;
+   padding-left: 85px;
+   background-image: url(../../Assets/img/hero.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.hero-title {
+   font-family: 'Fraunces 9pt';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+}
+
+.hero-copy{
+   font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width: 445px;
+color: #FEFCF7;
+}
+
+@media only screen and (max-width: 991px) {
+   .hero {
+      padding-top: 137px;
+      padding-bottom: 137px;
+      padding-left: 85px;
+      background-image: url(../../Assets/img/hero-pilanshet.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+   }
+   
+   .hero-title {
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+   }
+   
+   .hero-copy{
+      font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   width: 445px;
+   color: #FEFCF7;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .hero {
+      padding-top: 111px;
+      padding-bottom: 187px;
+      padding-left: 0px;
+      background-image: url(../../Assets/img/hero-tel.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+   }
+   
+   .hero-title {
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+      text-align: center;
+   }
+   
+   .hero-copy{
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      width: 279px;      
+      text-align: center;
+      height: 150px;
+      color: #FEFCF7;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 24px;
+   }
+}
